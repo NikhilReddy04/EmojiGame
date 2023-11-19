@@ -1,0 +1,49 @@
+.nav-bar {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff33;
+}
+
+.nav-image {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+.nav-heading {
+  font-size: 22px;
+  color: white;
+  margin-right: auto;
+}
+
+.score {
+  color: white;
+  font-size: 18px;
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-bar {
+    height: 50px;
+    margin-bottom: 70px;
+  }
+  .nav-image {
+    width: 20px;
+    height: 20px;
+  }
+  .nav-heading {
+    font-size: 14px;
+  }
+  .score {
+    font-size: 12px;
+    align-self: center;
+  }
+}
